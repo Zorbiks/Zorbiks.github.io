@@ -1,0 +1,100 @@
+/* Start Import Fonts */
+@font-face {
+    font-family: 'Fusion Pixel 12px Monospaced TC';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/fusion-pixel-12px-monospaced-tc@latest/latin-400-normal.woff2) format('woff2');
+}
+/* End Import Fonts */
+
+/* Start Global Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+}
+
+body {
+    font-family: 'Fusion Pixel 12px Monospaced TC';
+    font-weight: 400;
+    background-image: url('/images/background.png');
+    color: #fff;
+}
+
+a {
+    color: #60a5fa;
+}
+
+a:visited {
+    color: #3b82f6;
+}
+
+.container {
+    max-width: 992px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+hr {
+    border: 1px solid #fff;
+    margin: 1rem 0;
+}
+
+main {
+    padding: 3rem 0;
+}
+/* End Global Rules */
+
+/* Start Nav Bar */
+nav {
+    font-family: 'Fusion Pixel 12px Monospaced TC';
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    text-decoration: none;
+    color: #fff;
+}
+nav .logo h1 {
+    font-weight: 400;
+}
+
+nav .links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav .links a {
+    text-decoration: none;
+    padding: .75rem .25rem;
+    color: #fff;
+}
+
+nav .links a:hover {
+    border-bottom: 2px solid #fff;
+}
+/* End Nav Bar */
+
+/* Start Footer */
+footer {
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #032321;
+}
+/* End Footer */
