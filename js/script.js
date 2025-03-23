@@ -1,0 +1,1 @@
+document.querySelector(`.links a[href='${location.pathname}']`).className = 'active';

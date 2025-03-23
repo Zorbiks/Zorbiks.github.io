@@ -16,6 +16,7 @@
 }
 
 :root {
+    --primary-color: #50c391;
 }
 
 body {
@@ -90,8 +91,10 @@ nav .links a {
     color: #fff;
 }
 
+nav .links a.active,
 nav .links a:hover {
-    border-bottom: 2px solid #fff;
+        border-bottom: 2px solid var(--primary-color);
+        color: var(--primary-color);
 }
 /* End Nav Bar */
 
