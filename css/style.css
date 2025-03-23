@@ -93,8 +93,8 @@ nav .links a {
 
 nav .links a.active,
 nav .links a:hover {
-        border-bottom: 2px solid var(--primary-color);
-        color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
 }
 /* End Nav Bar */
 
